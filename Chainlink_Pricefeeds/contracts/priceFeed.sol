@@ -37,9 +37,3 @@ contract PriceConsumerV3 {
         return decimals;
     }
 }
-
-// roundId: The round ID. Each price update gets a unique round ID.
-// answer: The current price.
-// startedAt: Timestamp of when the round started.
-// updatedAt: Timestamp of when the round was updated.
-// answeredInRound: The round ID of the round in which the answer was computed.
